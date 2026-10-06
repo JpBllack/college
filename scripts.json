@@ -11,5 +11,18 @@
       "*://*.saladeavaliacoes.com.br/*"
     ],
     "updated": "2026-10-06T00:51:26.793Z"
+  },
+  {
+    "file": "assistente-de-provas-ia-v3-0-fix-selecao-react-dom-estacio.user.js",
+    "name": "Assistente de Provas IA v3.0 (Fix Seleção React + DOM Estácio)",
+    "version": "3.0",
+    "description": "Extrai perguntas e marca o gabarito disparando os handlers do React na plataforma da Estácio/Sala de Avaliações.",
+    "author": "Você",
+    "matches": [
+      "*://*.estacio.br/*",
+      "*://*.wyden.com.br/*",
+      "*://*.saladeavaliacoes.com.br/*"
+    ],
+    "updated": "2026-10-06T00:54:47.788Z"
   }
 ]
