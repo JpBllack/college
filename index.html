@@ -229,7 +229,9 @@
       left.append(meta);
       const a = document.createElement('a');
       a.className = 'btn'; a.textContent = 'Instalar';
-      a.href = RAW + DIR + '/' + encodeURIComponent(s.file); // termina em .user.js: o Tampermonkey abre a tela de instalação
+      a.href = RAW + DIR + '/' + encodeURIComponent(s.file);
+      a.target = '_blank';
+      a.rel = 'noopener';
       a.setAttribute('aria-label', 'Instalar ' + s.name);
       li.append(left, a); ul.appendChild(li);
     }
