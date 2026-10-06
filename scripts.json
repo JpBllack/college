@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "file": "remover-ia-chat-estacio.user.js",
+    "name": "Remover IA / Chat Estácio",
+    "version": "1.0",
+    "description": "Remove o widget de IA/chat da YDUQS/Estácio da tela da Sala de Aula Virtual.",
+    "author": "Você",
+    "matches": [
+      "*://*.estacio.br/*",
+      "*://*.wyden.com.br/*",
+      "*://*.saladeavaliacoes.com.br/*"
+    ],
+    "updated": "2026-10-06T00:51:26.793Z"
+  }
+]
